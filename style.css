@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Rubik', sans-serif;
+}
+#map
+{
+    width: 100%;
+    height: 110%;
+    
+}
+ #marker {
+background-image: url(hotspot_pulse.gif);
+background-size: cover;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+cursor: pointer;
+    }
+
+.mapboxgl-popup {
+max-width: 200px;
+    }
+h3#cases
+{
+ color:red;    
+}
+h3#recovered
+{
+color:lime;
+}
+h3#deaths
+{
+    color:yellow;
+}
+h4
+{
+    color:purple;
+}
+img
+{
+    height: 100%;
+    width: 100%;
+}
+ .marker {
+background-image: url(spot.gif);
+background-size: cover;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+cursor: pointer;
+    }
+.title
+{
+    color: white;
+   width: 100%;
+   height: 8vh; background-color: #191A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+.corona
+{
+    width: 80px;
+}
+.map
+{
+    width: 100%;
+    height: 92vh;
+    overflow: hidden;
+}
+@media only screen and (max-width:600px)
+{
+   html
+    {
+        font-size: 10px;
+    }
+    .corona
+    {
+        width: 70px;
+    }
+}
